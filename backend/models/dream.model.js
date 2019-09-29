@@ -17,3 +17,6 @@ var dream = new Schema({
 }, {
     timestamps: true
 });
+
+const Dream = mongoose.model('Dream', dream);
+module.exports = Dream;
