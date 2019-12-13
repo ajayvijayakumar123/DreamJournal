@@ -1,3 +1,5 @@
+I created this app with the help of a MERN stack tutorial.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
