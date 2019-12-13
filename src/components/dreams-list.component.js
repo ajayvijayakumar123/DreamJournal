@@ -19,7 +19,6 @@ export default class DreamsList extends Component { //class component
         super(props);
 
         this.deleteDream = this.deleteDream.bind(this);
-        
         this.state = {dreams: []};
     }
 
