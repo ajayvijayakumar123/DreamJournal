@@ -1,7 +1,7 @@
 const mongoose = require('mongoose'); //helps connect to mongoose
 const Schema = mongoose.Schema;
 
-var user = new Schema({
+var userSchema = new Schema({
     username: {
         type: String,
         required: true,
@@ -11,8 +11,8 @@ var user = new Schema({
         maxlength: 20
     }
 }, {
-    timestamps: true
+    timestamps: true,
 });
 
-const User = mongoose.model('User', user);
+const User = mongoose.model('User', userSchema);
 module.exports = User;
